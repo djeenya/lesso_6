@@ -1,0 +1,95 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@400;700;900&display=swap');
+
+body{
+   font-family: "Lato", serif;
+   max-width: 1230px;
+   margin: 0 auto;
+}
+
+[class*=__container]{
+   max-width: 810px;
+   margin: 0 auto;
+}
+.text__container{
+   color:  #424551;
+   line-height: 26px;
+}
+
+.image{
+   margin-bottom: 60px;
+}
+
+.title{
+   font-weight: 900;
+   font-size: 46px;
+   line-height: 60px;
+   text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+   margin-bottom: 55px;
+   padding-top: 35px;
+}
+.tittle-two {
+   font-weight: 700;
+   font-size: 20px;
+   line-height: 150%;
+   color: #1E212C;
+   margin-bottom: 24px;
+}
+.text-p {
+   margin-bottom: 25px;
+}
+.lorem {
+   margin-top: 48px;
+   font-weight: 700;
+   font-size: 20px;
+   line-height: 30px;
+   color: #1E212C;
+   padding-left: 58px;
+   margin-bottom: 48px;
+}
+.list__container{
+   line-height: 26px;
+   color: #424551;
+}
+.amet{
+   margin-bottom: 24px;
+}
+.list{
+   margin-bottom: 24px;
+}
+.class-li{
+   padding-left: 32px;
+   margin-bottom: 4px;
+}
+
+.home {
+   background-color: rgba(222, 184, 135, 0.458);
+   margin-top: 70px;
+}
+.text-home{
+   overflow: auto;
+   max-width: 800px;
+   padding: 25px;
+   max-height: 150px;
+   border: 10px double #1E212C;
+   color: maroon;
+   margin: 0 auto;
+   border-radius: 5%;
+   outline: 5px solid rgba(16, 56, 201, 0.748);
+   opacity: 0.6;
+}
+.text-home span{
+   visibility: hidden;
+}
+.home-text{
+   padding: 50px 0px 170px 0px;
+}
+.home__image {
+   display: block;
+   margin: 0 auto;
+   max-width: 100%;
+   box-shadow:  130px 130px 130px 135px rgba(74, 75, 77, 0.882), 120px 100px 230px 105px rgba(7, 7, 7, 0.877);
+   border-top:  15px double #1E212C;
+   border-bottom: 15px dotted #1E212C;
+   border-left: 15px solid #1E212C;
+   border-right: 15px dashed #1E212C;
+}
